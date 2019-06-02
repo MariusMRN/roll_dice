@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wood"
+        tools:context=".MainActivity">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp">
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="10"
+                app:srcCompat="@drawable/i_adddice"
+                android:id="@+id/b_addDice"/>
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="10"
+                app:srcCompat="@drawable/i_removedice"
+                android:id="@+id/b_removeDice"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/relativeLayout">
+
+        <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/dice_6"
+                android:id="@+id/diceImage"
+                android:contentDescription="TODO"/>
+        <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/dice_6"
+                android:id="@+id/diceImage2"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true">
+
+        <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/dice_6"
+                android:id="@+id/diceImage3"
+                android:layout_weight="1"/>
+        <ImageView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/dice_6"
+                android:id="@+id/diceImage4"
+                android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="485dp">
+        <TextView
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/resultDice"
+                android:fontFamily="@font/amaranth_bold"
+                android:textSize="32sp"
+                android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="550dp"
+            android:layout_centerHorizontal="true">
+
+        <Button
+                android:text="@string/b_dice"
+                android:layout_width="150dp"
+                android:layout_height="67dp"
+                android:background="@drawable/button_nice"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/b_dice"
+                android:textSize="20sp"
+                android:fontFamily="@font/amaranth_bold"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>

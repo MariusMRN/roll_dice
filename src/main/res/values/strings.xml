@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Roll a Dice</string>
+    <string name="b_dice">Dice</string>
+    <string name="b_addDice">Add dice</string>
+    <string name="b_removeDice">Remove dice</string>
+</resources>
