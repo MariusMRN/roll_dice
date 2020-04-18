@@ -2,7 +2,6 @@
 That's my Dice Roller application for android in Kotlin. Enjoy 😄 
 
 
-![alt text](https://cdn.discordapp.com/attachments/539575170403139595/584763894732423330/Screenshot_20190602_182209.jpg)
+![image](https://user-images.githubusercontent.com/19652358/79669525-c8c2bc80-81c4-11ea-940b-a85dbcd3b15c.png)
+![image](https://user-images.githubusercontent.com/19652358/79669530-d0826100-81c4-11ea-8f6a-5329ca029d6c.png)
 
-
-![alt text](https://cdn.discordapp.com/attachments/539575170403139595/584763959865769985/Screenshot_20190602_182233.jpg)
